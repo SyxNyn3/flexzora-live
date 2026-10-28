@@ -1,0 +1,33 @@
+{
+  "name": "FlexZora — The OS for live-event crews",
+  "short_name": "FlexZora",
+  "description": "The operating system for live-event crews. Post the call, match the crew, clock in on site, pay on approval.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0D10",
+  "theme_color": "#0B0D10",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Join the Crew",
+      "short_name": "Waitlist",
+      "description": "Join the founding crew waitlist",
+      "url": "/waitlist?role=worker"
+    },
+    {
+      "name": "Browse Gigs",
+      "short_name": "Gigs",
+      "description": "View available gigs",
+      "url": "/gigs"
+    }
+  ]
+}
